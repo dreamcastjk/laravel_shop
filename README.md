@@ -2,6 +2,6 @@
 composer install
 
 #### FRONT
-npm install
-npm run dev
+yarn install,
+yarn run dev
 
