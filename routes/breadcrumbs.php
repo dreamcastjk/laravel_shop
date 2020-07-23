@@ -26,7 +26,7 @@ BreadCrumbs::register(('password.reset'), function (Crumbs $crumbs) {
     $crumbs->push('Change', route('password.reset'));
 });
 
-BreadCrumbs::register(('password.reset'), function (Crumbs $crumbs) {
+BreadCrumbs::register(('cabinet'), function (Crumbs $crumbs) {
     $crumbs->parent('home');
     $crumbs->push('Cabinet', route('cabinet'));
 });
